@@ -1,0 +1,21 @@
+{
+  "id": "login-ecitizen",
+  "label": "Login to ecitizen",
+  "icon": "🔒",
+  "steps": [
+    {
+      "action": "goto",
+      "url": "https://accounts.ecitizen.go.ke",
+      "message": "Navigating to ecitizen..."
+    },
+    {
+      "action": "act",
+      "prompt": "click the login button",
+      "message": "Looking for the login button..."
+    },
+    {
+      "action": "pause",
+      "message": "Please enter your credentials in the browser window"
+    }
+  ]
+}
